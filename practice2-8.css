@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    width: 1920px;
+    padding: 64px 158px 268px 158px;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+}
+
+#section {
+    display: flex;
+    padding: 96px;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    align-self: stretch;
+    background: #FFAEAF;
+}
+
+#firstConteiner {
+    /* display: flex; */
+    padding: var(--spacing-9xl, 96px) 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 96px;
+    align-self: stretch;
+    background: #FFF;
+
+
+}
+
+#miniPharagrap {
+    color: #ED00A6;
+    text-align: center;
+
+    /* Text md/Semibold */
+    font-family: var(--Font-family-font-family-body, Inter);
+    font-size: var(--Font-size-text-md, 16px);
+    font-style: normal;
+    font-weight: 600;
+    line-height: var(--Line-height-text-md, 24px);
+    /* 150% */
+}
+
+h1 {
+    color: #181D27;
+    text-align: center;
+
+    /* Display lg/Semibold */
+    font-family: var(--Font-family-font-family-display, Inter);
+    font-size: var(--Font-size-display-lg, 48px);
+    font-style: normal;
+    font-weight: 600;
+    line-height: var(--Line-height-display-lg, 60px);
+    /* 125% */
+    letter-spacing: -0.96px;
+
+
+}
+
+#firstPharagrap {
+    color: #535862;
+    text-align: center;
+
+    /* Text xl/Regular */
+    font-family: var(--Font-family-font-family-body, Inter);
+    font-size: var(--Font-size-text-xl, 20px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: var(--Line-height-text-xl, 30px);
+    /* 150% */
+}
+
+#fotoConteiner {
+    display: flex;
+    max-width: var(--container-max-width-desktop, 1280px);
+    align-items: center;
+    gap: var(--spacing-9xl, 96px);
+    align-self: stretch;
+    padding-top: 96px;
+}
+
+#pirvelifoto {
+    width: 600px;
+    height: 462px;
+    border-radius: 16px;
+    margin-left: 25px;
+
+}
+
+#meoreFotoConteiner {
+    display: flex;
+    max-width: var(--container-max-width-desktop, 1280px);
+    justify-content: flex-end;
+    align-items: center;
+    gap: var(--spacing-9xl, 96px);
+    align-self: stretch;
+    padding-top: 96px;
+}
+
+#meoreFoto {
+    width: 600px;
+    height: 462px;
+    border-radius: 16px;
+    margin-right: 25px;
+
+}
+
+#mesameFotoConteiner {
+    display: flex;
+    max-width: var(--container-max-width-desktop, 1280px);
+    align-items: center;
+    gap: var(--spacing-9xl, 96px);
+    align-self: stretch;
+    padding-top: 96px;
+}
+
+#mesamefoto {
+    width: 592px;
+    height: 462px;
+    margin-left: 25px;
+}
